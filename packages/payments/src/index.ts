@@ -1,0 +1,1 @@
+export { PaytmService, paytmService } from './PaytmService';

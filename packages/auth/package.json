@@ -1,0 +1,22 @@
+{
+  "name": "@studyhub/auth",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "@studyhub/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/bcryptjs": "^2.4.6",
+    "typescript": "^5.3.0"
+  }
+}
